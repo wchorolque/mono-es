@@ -17,13 +17,13 @@ esta organizado en GitHub
 * [Control de código fuente](#codigo_fuente) detalles acerca del uso del control de código fuente
 * [Buenas prácticas](#buenas_practicas) usados en el proyecto
 
-##Estilo de codificación      {#estilo}
+##[Estilo de codificación]{#estilo}
 
-##Cambios en el flujo de trabajo en Git       {#git}
+##[Cambios en el flujo de trabajo en Git]{#git}
 
-##Control de código fuente        {#codigo_fuente}
+##[Control de código fuente]{#codigo_fuente}
 
-##Buenas prácticas        {#buenas_practicas}
+##[Buenas prácticas]{#buenas_practicas}
 
 
 
