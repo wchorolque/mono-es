@@ -20,6 +20,11 @@ esta organizado en GitHub
 <a name="estilo"/>
 ##Estilo de codificación
 
+Para mantener el código fuente consistente, por favor use las siguientes convenciones. De aquí en adelante `bueno` y
+`malo` son atributos usados para indicar si el código coincide o no con el estilo de codificación. Esto no es una
+llamada de atención a tus habilidades de escribir código si no una llamada de atención al estilo y apariencia. Por favor
+trata de seguir las guías de codificación para asegurar la estetica.
+
 <a name="git"/>
 ##Cambios en el flujo de trabajo en Git
 
