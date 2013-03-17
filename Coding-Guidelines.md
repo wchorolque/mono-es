@@ -84,6 +84,49 @@ _malo_
     method ( a );
     array[ 10 ];
 
+No coloque un espacio entre los tipos genéricos, es decir:
+
+_bueno_
+
+    var list = new List<int> ();
+
+_malo_
+
+    var list = new List <int> ();
+
+###Donde colocar las llaves
+
+Dentro un bloque de código, coloque las llaves de apertura en la misma línea de la sentencia:
+
+_bueno_
+
+    if (a) {
+            code();
+            code();
+    }
+
+_malo_
+
+    if (a)
+    {
+            code ();
+            code ();
+    }
+
+Evite el uso innecesario de llaves de apertura y cierre, el espacio vertical se limita generalmente:
+
+_bueno_
+
+    if (a)
+            code();
+
+_malo_
+
+    if (a) {
+            code ();
+    }
+
+
 <a name="git"/>
 ##Cambios en el flujo de trabajo en Git
 
