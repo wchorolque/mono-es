@@ -49,6 +49,7 @@ Esto toma espacio valioso, mejor escribelo como esto:
     }
 
 Las sentencias `switch` tienen el `case` a la misma altura `switch`:
+
     switch (x) {
     case 'a':
             ...
