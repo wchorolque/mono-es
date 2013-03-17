@@ -11,7 +11,8 @@ lines should be wrapped to 120 chars, not 80
 
 =Guías de Codificación=
 
-El nuevo código escrito para XWT debe seguir las guías de codificación genericas de Mono,
+El nuevo código escrito para XWT debe seguir las
+[guías de codificación genericas de Mono](http://www.mono-project.com/Coding_Guidelines),
 con las siguientes excepciones:
 
 * Usar CamelCase para nombres de campos.
