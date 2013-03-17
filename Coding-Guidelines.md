@@ -25,6 +25,29 @@ Para mantener el código fuente consistente, por favor use las siguientes conven
 llamada de atención a tus habilidades de escribir código si no una llamada de atención al estilo y apariencia. Por favor
 trata de seguir las guías de codificación para asegurar la estetica.
 
+Puede que también desees leer la documentación de
+[.Net Framework Design Guidelines](http://msdn.microsoft.com/en-us/library/ms229042.aspx), sin embargo las guías de
+codificación de Mono que se describen a continuación tienen preferencia si existe algún conflictos.
+
+###Indentación
+
+Usa una tabulacion equivalente a 8 espacios para escribir tu código (afortunadamente podemos mantener esto consistente).
+Si estas modificando el código fuente de alguien mas trata de mantener el estilo de codificación parecido.
+
+    for (i = 0; i < 10; i++) {
+            if (something (i) ) {
+                    do_more ();
+            }
+    }
+
+Esto toma espacio valioso, mejor escribelo como esto:
+
+    for (i = 0; i < 10; i++) {
+            if (!something (i))
+                    continue;
+            do_more();
+    }
+    
 <a name="git"/>
 ##Cambios en el flujo de trabajo en Git
 
