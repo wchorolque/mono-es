@@ -47,7 +47,42 @@ Esto toma espacio valioso, mejor escribelo como esto:
                     continue;
             do_more();
     }
-    
+
+Las sentencias `switch` tienen el `case` a la misma altura `switch`:
+    switch (x) {
+    case 'a':
+            ...
+    case 'b':
+            ...
+    }
+
+###Rendimiento y Legibilidad
+
+Es más importante ser correcto que ser veloz.
+
+Es más importante ser mantenible que ser veloz.
+
+Código rápido que sea complicado de mantener probablemente sea despreciado.
+
+###Donde colocar los espacios
+
+Use un espacio antes de abrir un parentesis cuando llame a funciones o haga uso de indices, como este:
+
+    method (a);
+    b [10];
+
+No coloque un espacio después del paréntesis de apertura ni antes del parentesis de cierre, es decir:
+
+_bueno_
+
+    method (a);
+    array [10];
+
+_malo_
+
+    method ( a );
+    array[ 10 ];
+
 <a name="git"/>
 ##Cambios en el flujo de trabajo en Git
 
